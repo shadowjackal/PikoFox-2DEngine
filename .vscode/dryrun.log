@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/ash/Documents/JackalEngine-SourceCode_3d/JackalEngine-SourceCode'
+g++ main.cpp glad.c graphics.cpp -o Build/jackal -Bstatic -lglfw -lGL -lGLU -lm -lassimp -static-libstdc++ -static-libgcc -std=c++17
+make: Leaving directory '/home/ash/Documents/JackalEngine-SourceCode_3d/JackalEngine-SourceCode'
+ 
